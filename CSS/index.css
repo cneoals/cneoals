@@ -1,0 +1,60 @@
+@import "reset.css";
+@import "status-bar.css";
+
+.welcome-header {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcome-header__title {
+  font-size: 25px;
+  font-weight: 600;
+}
+.welcome-header__text {
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  opacity: 0.4;
+}
+.login-form {
+  margin: 65px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.login-form__input {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 15px;
+  border: none;
+  border-bottom: 1px solid #80634c;
+  height: 30px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+.login-form__input:focus {
+  border-color: #1aafbc;
+}
+.login-form__submit {
+  margin-top: 25px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #80634c;
+  color: #1aafbc;
+  font-size: 15px;
+  font-weight: 600;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.login-form__submit:hover {
+  background-color: #1aafbc;
+  color: #80634c;
+  outline: none;
+}
+.login-form__lost {
+  margin-top: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: #1aafbc;
+  font-size: 15px;
+}

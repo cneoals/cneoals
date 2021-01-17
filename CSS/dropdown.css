@@ -1,0 +1,40 @@
+.user-component__menu__col {
+  position: relative;
+}
+.user-component__menu__col__btn__dropdown {
+  display: none;
+  position: absolute;
+  border-radius: 10px;
+  background-color: #80634c;
+  min-width: 160px;
+  min-height: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.user-component__menu__col:hover .user-component__menu__col__btn__dropdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.user-component__menu__col__btn__dropdown > a {
+  padding: 12px 16px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #1aafbc;
+}
+.user-component__menu__col__btn__dropdown > a:hover {
+  color: #80634c;
+  font-size: 16px;
+  font-weight: bolder;
+  background-color: #1aafbc;
+}
+.user-component__menu__col__btn__dropdown
+  > .user-component__menu__col__btn__dropdown__content__no {
+  color: tomato;
+}
+.user-component__menu__col__btn__dropdown
+  > .user-component__menu__col__btn__dropdown__content__no:hover {
+  color: darkred;
+}

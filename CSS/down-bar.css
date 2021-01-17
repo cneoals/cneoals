@@ -1,0 +1,39 @@
+.down-bar {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 10px 0px;
+  background-color: #1aafbc;
+}
+.down-bar__col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 90px;
+  width: 30px;
+  height: 30px;
+}
+.down-bar__col:nth-child(2) {
+  position: relative;
+}
+.down-bar__col:hover {
+  background-color: #80634c;
+  color: #1aafbc;
+}
+.down-bar__notice {
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  z-index: 1;
+  bottom: 15px;
+  left: 18px;
+  color: white;
+  position: absolute;
+}

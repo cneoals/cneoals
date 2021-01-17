@@ -1,0 +1,25 @@
+@import "reset.css";
+@import "status-bar.css";
+@import "down-bar.css";
+@import "top-bar.css";
+@import "user-component.css";
+@import "dropdown.css";
+
+.my-info {
+  margin: 20px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #80634c;
+}
+.my-info__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  background-color: #1aafbc;
+}

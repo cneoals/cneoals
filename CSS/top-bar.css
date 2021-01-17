@@ -1,0 +1,30 @@
+.top-bar {
+  margin: 25px 10px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-bar__col {
+  width: 50%;
+}
+.top-bar__col:first-child {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 30px;
+  font-weight: 600;
+}
+.top-bar__col:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+button {
+  color: #80634c;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  transition: color 0.3s ease-in-out;
+}
+button:hover {
+  color: #1aafbc;
+}
